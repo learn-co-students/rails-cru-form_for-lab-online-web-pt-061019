@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+kondo = Artist.create(name: "Koji Kondo", bio: "Music composer for Legend of Zelda.")
+ost = Genre.create(name: "OST")
+main_theme = Song.create(name: "Main Theme", artist_id: 1, genre_id: 1)
